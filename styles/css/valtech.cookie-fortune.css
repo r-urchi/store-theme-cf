@@ -56,10 +56,14 @@
 .CookieFortune {}
 
 .CookieFortuneContainer :global(.vtex-button) {
-    min-width: 17.5rem;
     background-color: #eff6ff;
     border: none;
     border-radius: .625rem;
+    transition: all .5s ease;
+}
+
+.CookieFortuneContainer :global(.vtex-button):hover {
+    background-color: #a7cff1;
 }
 
 .CookieFortuneContainer :global(.vtex-button__label) {
