@@ -1,0 +1,76 @@
+.CookieFortuneMessage,
+.CookieFortuneLuckyNumber {
+    color: #1e3a8a;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.CookieFortuneMessage {
+    font-size: 1.25rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .CookieFortuneMessage {
+        font-size: 1.5rem;
+    }
+}
+
+.CookieFortuneLuckyNumber {
+    font-size: 1rem;
+    background-color: #edf4fa;
+    border-radius: .625rem;
+    box-sizing: border-box;
+    padding: .75rem 1rem;
+    margin-top: 1.25rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .CookieFortuneLuckyNumber {
+        font-size: 1.25rem;
+    }
+}
+
+.CookieFortuneContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.CookieFortuneMessageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 1.5rem;
+}
+
+.CookieImage {
+    height: 11.25rem;
+}
+
+.CookieFortune {}
+
+.CookieFortuneContainer :global(.vtex-button) {
+    min-width: 17.5rem;
+    background-color: #eff6ff;
+    border: none;
+    border-radius: .625rem;
+}
+
+.CookieFortuneContainer :global(.vtex-button__label) {
+    color: #1e3a8a;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .CookieFortuneContainer :global(.vtex-button__label) {
+        font-size: 1.75rem;
+    }
+}

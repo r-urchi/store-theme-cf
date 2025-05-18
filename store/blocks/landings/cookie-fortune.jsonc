@@ -1,0 +1,59 @@
+{
+  "store.custom#cookie-fortune": {
+    "children": [
+      "flex-layout.row#cookie-fortune-container"
+    ]
+  },
+  "flex-layout.row#cookie-fortune-container": {
+    "props": {
+      "blockClass": "cookie-fortune-container"
+    },
+    "children": [
+      "flex-layout.col#cookie-fortune-container-col"
+    ],
+    "title": "Cookie Fortune"
+  },
+  "flex-layout.col#cookie-fortune-container-col": {
+    "children": [
+      "rich-text#cookie-fortune-title",
+      "image#cookie-fortune-img-1",
+      "rich-text#cookie-fortune-description",
+      "cookie-fortune"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "cookie-fortune-container-col"
+    },
+    "title": "Cookie Fortune"
+  },
+  "rich-text#cookie-fortune-title": {
+    "props": {
+      "text": "# Galleta de la fortuna",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "cookie-fortune-title"
+    },
+    "title": "Cookie Fortune Title"
+  },
+  "rich-text#cookie-fortune-description": {
+    "props": {
+      "text": "Todos los días podes romper una galleta para obtener una predicción que determinará tu día. \n \n **¡Miles de predicciones te esperan!**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "cookie-fortune-description"
+    },
+    "title": "Cookie Fortune Description"
+  },
+  "image#cookie-fortune-img-1": {
+    "title": "Cookie Fortune Image",
+    "props": {
+      "src": "assets/galletita.png",
+      "alt": "Cookie Fortune",
+      "blockClass": [
+        "cookie-fortune-img",
+        "cookie-fortune-img-1"
+      ]
+    }
+  }
+}
